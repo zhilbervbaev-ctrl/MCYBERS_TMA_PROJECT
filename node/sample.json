@@ -1,0 +1,159 @@
+{
+  "audit_meta": {
+    "auditor_role": "Senior GDPR & ePrivacy Compliance Auditor",
+    "documents_reviewed": [
+      "Privacy Policy",
+      "Cookie Policy"
+    ]
+  },
+  "audit_checklist": [
+    {
+      "id": 1,
+      "category": "PART A: GENERAL GOVERNANCE",
+      "question": "Does the policy clearly state the full contact details of the Data Controller (company name, address) and the Data Protection Officer (DPO), if applicable?",
+      "verdict": "Yes",
+      "evidence": "Data Controller: \"Unidad Editorial Información general, S.L.U con domicilio social en Avenida de San Luis 25,28033 Madrid CIF B-85.157.790\" and \"Unidad Editorial, S.A., sociedad española con domicilio social en Avenida de San Luis, 25, C.P. 28033, Madrid (España), C.I.F. A-79.102.331\". DPO: \"puede contactar con nuestro Delegado de Protección de datos a través del mail dpo@unidadeditorial.es\"",
+      "notes": "Both data controllers are clearly identified with full company names, addresses, and CIFs. A specific email address for the DPO is also provided."
+    },
+    {
+      "id": 2,
+      "category": "PART A: GENERAL GOVERNANCE",
+      "question": "Does the policy specify the retention period (how long data is kept) for the main categories of personal data collected?",
+      "verdict": "Partial",
+      "evidence": "Sus datos se conservarán mientras exista un interés mutuo en mantener el Registro Único, o mientras usted no ejerza su derecho de supresión, oposición o limitación del tratamiento. Solo conservamos sus Datos Personales durante el tiempo que los necesitemos para el propósito para el que los tratamos, para satisfacer sus necesidades, para la ejecución de la relación contractual establecida entre usted y la sociedad o para cumplir con nuestras obligaciones legales.",
+      "notes": "The policy provides a general statement regarding retention based on the existence of mutual interest, exercise of rights, or legal obligations. It does not specify concrete retention periods for main categories of personal data, which would be ideal for clarity and transparency."
+    },
+    {
+      "id": 3,
+      "category": "PART A: GENERAL GOVERNANCE",
+      "question": "Does the policy list the specific user rights (Access, Rectification, Erasure, Objection, Portability)?",
+      "verdict": "Yes",
+      "evidence": "Los usuarios podrán ejercitar los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad de los datos (\"Derechos de los interesados\")",
+      "notes": "All key GDPR data subject rights (Access, Rectification, Erasure, Objection, Limitation of processing, and Data Portability) are explicitly listed."
+    },
+    {
+      "id": 4,
+      "category": "PART A: GENERAL GOVERNANCE",
+      "question": "Is there an operational contact channel (specific email or form) and clear instructions on how to exercise these rights?",
+      "verdict": "Yes",
+      "evidence": "Unidad Editorial Información General, S.L.U.: mediante escrito dirigido a Avenida de San Luis, 25, C.P. 28033, Madrid (España), o a la dirección de correo electrónico: lopd@unidadeditorial.es, con la referencia [www.elmundo.es], indicando su nombre, apellidos y dirección postal. Unidad Editorial S.A.: mediante escrito dirigido a Avda. de San Luis, 25, 28033, Madrid, España, o a la dirección de correo electrónico lopd@unidadeditorial.es, con la referencia \"Derechos de los interesados\" e indicando su nombre y apellidos y dirección postal e identificando los Universos a los que se refiere su solicitud.",
+      "notes": "Specific postal addresses and a dedicated email address (`lopd@unidadeditorial.es`) are provided for exercising rights, along with clear instructions on what information to include."
+    },
+    {
+      "id": 5,
+      "category": "PART A: GENERAL GOVERNANCE",
+      "question": "Is the right to lodge a complaint with the relevant supervisory authority mentioned?",
+      "verdict": "Yes",
+      "evidence": "Asimismo, si considera que no ha obtenido satisfacción en el ejercicio de sus derechos ante los responsables de los Datos Personales, puede contactar con nuestro Delegado de Protección de datos a través del mail dpo@unidadeditorial.es y/o presentar una reclamación ante la Agencia Española de Protección de Datos a través de su página web www.agpd.es.",
+      "notes": "The policy clearly states the right to lodge a complaint with the Spanish Data Protection Agency (AEPD) and provides its website address."
+    },
+    {
+      "id": 6,
+      "category": "PART A: GENERAL GOVERNANCE",
+      "question": "If data leaves the EEA, does the policy identify the recipient country and the specific safeguards used (e.g., Standard Contractual Clauses/SCCs or Data Privacy Framework)?",
+      "verdict": "No",
+      "evidence": "No se prevén transferencias de Datos Personales a terceros países u organizaciones internacionales.",
+      "notes": "The policy explicitly states that no international transfers of personal data to third countries or international organizations are foreseen. Therefore, it does not identify recipient countries or specific safeguards, as the condition for such identification is not met."
+    },
+    {
+      "id": 7,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Is there a specific and accessible Cookie Policy? (Is it separate or clearly integrated within the Privacy Policy?)",
+      "verdict": "Yes",
+      "evidence": "Footer link in Privacy Policy: \"Pol&iacute;tica de cookies\" linking to `https://www.elmundo.es/cookies.html`. The Cookie Policy is a separate document titled \"POLÍTICA DE COOKIES\".",
+      "notes": "A dedicated and clearly accessible Cookie Policy exists as a separate document, linked from the Privacy Policy and website footer."
+    },
+    {
+      "id": 8,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Does it explain in plain language what cookies are and why they are used on this website?",
+      "verdict": "Yes",
+      "evidence": "Una cookie es un fichero que se descarga en el ordenador/smartphone/tablet del usuario al acceder a determinadas páginas web para almacenar y recuperar información sobre la navegación que se efectúa desde dicho equipo.",
+      "notes": "The Cookie Policy begins with a clear, concise definition of cookies in plain language. The subsequent sections explain the purposes of different cookie types."
+    },
+    {
+      "id": 9,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Are cookie categories clearly defined? (e.g., Technical, Analytical, Marketing, Preferences).",
+      "verdict": "Yes",
+      "evidence": "Unidad Editorial y otros terceros utilizan en este sitio web la siguiente tipología de cookies: Estrictamente necesarias, De configuración, Analíticas o de medición, De publicidad comportamental, De localización geográfica.",
+      "notes": "The policy clearly defines five distinct categories of cookies, aligning with common classification standards."
+    },
+    {
+      "id": 10,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Are \"strictly necessary\" cookies explained, and is it justified why these do not require prior consent?",
+      "verdict": "Yes",
+      "evidence": "<u>Estrictamente necesarias</u>: también denominadas \"técnicas\" o \"funcionales\", son aquéllas que permiten la navegación a través del sitio web, garantizan el correcto funcionamiento del mismo y la utilización de las diferentes opciones o servicios que en él existen. Son cookies que permiten, por ejemplo, controlar el tráfico y la comunicación de datos, identificar la sesión, acceder a partes de acceso restringido... Si se desactivan estas cookies, no podrá recibir correctamente nuestros contenidos y servicios.",
+      "notes": "Strictly necessary cookies are well-explained with examples. The justification for not requiring consent is implied by stating that disabling them would prevent proper functioning and service delivery."
+    },
+    {
+      "id": 11,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Does the policy contain a table or list detailing every cookie, including: Name, Provider, Purpose, and Duration?",
+      "verdict": "No",
+      "evidence": "The HTML document contains a script tag `script src=\"https://cdn.cookielaw.org/scripttemplates/otSDKStub.js\" type=\"text/javascript\" charset=\"UTF-8\" data-domain-script=\"8e749cd1-4c24-4bc6-b828-0f343d679c90\"></script>` and a JavaScript block that dynamically generates the cookie table from OneTrust data, rather than having the static table content directly in the provided HTML.",
+      "notes": "While the website likely displays a comprehensive cookie table to users via a JavaScript-driven Consent Management Platform (OneTrust), the provided HTML document itself does not statically contain the list of cookies with their name, provider, purpose, and duration. This means the information is not directly readable from the raw HTML content provided for audit."
+    },
+    {
+      "id": 12,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Are there links to the privacy policies of external providers (third parties like Google, Facebook)?",
+      "verdict": "Partial",
+      "evidence": "Para conocer más información sobre las cookies, Unidad Editorial, S.A. (Unidad Editorial) le invita a acceder al siguiente enlace: https://www.iabspain.net/privacidadeninternet/usuario... Política de Privacidad de Google (https://policies.google.com/) y los Términos del Servicio de YouTube (https://www.youtube.com/t/terms)... (por ejemplo, Ghostery https://www.ghostery.com/about-ghostery/privacy-statements/)",
+      "notes": "The policy provides links to general cookie information (IAB Spain), Google's Privacy Policy and YouTube's Terms of Service for video players, and Ghostery for managing cookies. However, it does not provide individual links for all 'other third parties' mentioned as using cookies, such as for specific advertising or analytics partners."
+    },
+    {
+      "id": 13,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Does it explicitly state that non-essential cookies (analytics/marketing) are only installed after consent?",
+      "verdict": "Yes",
+      "evidence": "<u>De configuración</u>... si el usuario presta su consentimiento, Unidad Editorial y otros terceros que utilicen este tipo de cookies podrán almacenar y/o acceder a información en su dispositivo... <u>Analíticas o de medición</u>... si el usuario presta su consentimiento... <u>De publicidad comportamental</u>... si el usuario otorga su consentimiento...",
+      "notes": "For all non-essential cookie categories (configuration, analytics, behavioral advertising), the policy consistently uses phrases like 'si el usuario presta su consentimiento' (if the user gives their consent) or 'si el usuario lo autoriza' (if the user authorizes it), clearly indicating that prior consent is required."
+    },
+    {
+      "id": 14,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Is the legal basis identified for each cookie type? (e.g., \"Legitimate Interest/Necessity\" for essential ones; \"Consent\" for the rest).",
+      "verdict": "Partial",
+      "evidence": "(Cookie Policy) 'Estrictamente necesarias: ... garantizan el correcto funcionamiento...' (Privacy Policy) 'La legitimación para esta finalidad de tratamiento de sus Datos Personales es el interés legítimo de Unidad Editorial de mejorar sus contenidos, y el consentimiento del usuario para la utilización de cookies.'",
+      "notes": "The Cookie Policy implies necessity for 'strictly necessary' cookies but does not explicitly state 'legitimate interest' as the legal basis within that document. For non-essential cookies, it clearly links them to user consent. The Privacy Policy provides a more direct statement on legal bases but not always clearly mapped to *each specific cookie type* described in the Cookie Policy, rather to the broader purposes of data processing."
+    },
+    {
+      "id": 15,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Does the text explain how the user can withdraw or modify their consent at any time? (Must mention a settings panel, footer link, or similar).",
+      "verdict": "Yes",
+      "evidence": "El panel de configuración de cookies de Unidad Editorial al que puede acceder aquí; La configuración del navegador; Otras herramientas de terceros... Puede consultar más información sobre el servicio Utiq en el consenthub de Utiq o en la Política de Privacidad de Utiq.",
+      "notes": "The policy offers multiple ways to manage cookies: a direct link to the cookie settings panel, browser settings, third-party tools, and specific information about the Utiq service consent hub."
+    },
+    {
+      "id": 16,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Does it clarify that withdrawing consent is as easy as giving it (e.g., \"you can change your mind at any time\")?",
+      "verdict": "Partial",
+      "evidence": "(Privacy Policy) 'Tiene derecho a retirar su consentimiento en cualquier momento conforme al procedimiento establecido en el apartado \"Derechos de los interesados\", sin que ello afecte a la licitud del tratamiento basado en el consentimiento de forma previa a su retirada.' (Cookie Policy) 'Utiq pondrá a tu disposición un portal de privacidad centralizado (consenthub), el cual te ofrece toda la información sobre el servicio y te permite administrarlo, incluyendo retirar todos los consentimientos Utiq que hayas dado o desactivar o prevenir la activación del servicio. En cualquier momento. En un solo lugar.'",
+      "notes": "While it states that consent can be withdrawn 'at any time' and offers various accessible mechanisms, it doesn't use explicit phrasing like 'as easy as giving it' for general cookie consent, though the Utiq section approaches this with 'En cualquier momento. En un solo lugar.' for that specific service."
+    },
+    {
+      "id": 17,
+      "category": "PART B: COOKIES & TRACKING TRANSPARENCY",
+      "question": "Does it mention if cookies are used for user profiling or tracking?",
+      "verdict": "Yes",
+      "evidence": "<u>De publicidad comportamental</u>: son aquéllas que almacenan información del comportamiento de los usuarios obtenida a través de la observación continuada de sus hábitos de navegación, lo que permite desarrollar un perfil específico del usuario para mostrar publicidad y contenido personalizado en función del mismo. ... <i>Crear perfiles para personalizar el contenido</i>... <i>Crear perfiles para publicidad personalizada</i>... <i>Compartir tus análisis de navegación y grupos de interés con terceros</i>...",
+      "notes": "The 'De publicidad comportamental' (Behavioral advertising) section explicitly details the use of cookies for user profiling and tracking to deliver personalized content and advertising, including sharing profiles with third parties."
+    }
+  ],
+  "scorecard": {
+    "total_score": 26,
+    "max_score": 34,
+    "compliance_level": "Moderate Risk",
+    "risk_icon": "🟡",
+    "priority_actions": [
+      "Explicitly state the legal basis (e.g., legitimate interest) for 'strictly necessary' cookies within the Cookie Policy.",
+      "Provide concrete retention periods for main categories of personal data in the Privacy Policy, rather than generic statements.",
+      "Ensure the cookie policy statically includes a detailed table of all cookies (name, provider, purpose, duration) within the HTML content, or clarify in the text how this dynamic list can be accessed and reviewed by users without relying on script execution.",
+      "Enhance the 'ease of withdrawal' language for general cookie consent to explicitly state it is 'as easy as giving it', in line with GDPR requirements."
+    ]
+  }
+}

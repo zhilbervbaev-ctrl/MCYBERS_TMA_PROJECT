@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "GDPR Compliance Auditor",
+  "version": "1.0",
+  "description": "Check GDPR compliance score for the current website.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+    }
+  },
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ]
+}

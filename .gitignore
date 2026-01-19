@@ -1,0 +1,25 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+# Ignore Gradle build output directory
+build
+
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+.env
+
+# Java / IDE
+.idea
+*.iml
+*.class
+.vscode
+
+# OS
+.DS_Store
+
+# Distributables
+dist
+

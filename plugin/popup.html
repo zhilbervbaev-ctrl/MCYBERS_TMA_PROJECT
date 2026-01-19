@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDPR Auditor</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="logo.png" alt="Logo" class="logo">
+                <div class="header-text">
+                    <h1>GDPR Cookie Compliance & ePrivacy Auditor</h1>
+                </div>
+            </div>
+        </header>
+
+        <div class="domain-display" id="domainDisplay">
+            www.example.com
+        </div>
+
+        <div class="main-content" id="mainContent">
+            <div class="scorecard">
+                <div class="score-row">
+                    <div class="score-big">
+                        <span id="scoreValue">--</span><span class="score-max">/34</span>
+                    </div>
+                    <div class="risk-badge">
+                        <span class="risk-icon" id="riskIcon">⚪</span>
+                        <span id="complianceLevel">Checking...</span>
+                    </div>
+                </div>
+
+                <div class="sub-scores">
+                    <div class="sub-score-box">
+                        <div class="sub-icon">📄</div>
+                        <div class="sub-text">
+                            <span class="sub-label">POLICY SCORE</span>
+                            <span class="sub-value" id="policyScore">-- / 12</span>
+                        </div>
+                    </div>
+                    <div class="sub-score-box">
+                        <div class="sub-icon">🍪</div>
+                        <div class="sub-text">
+                            <span class="sub-label">COOKIES SCORE</span>
+                            <span class="sub-value" id="cookieScore">-- / 22</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-list">
+                <div class="stat-item">
+                    <span class="stat-label">Total Cookies</span>
+                    <span class="stat-value" id="totalCookies">--</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Before Consent</span>
+                    <span class="stat-value" id="beforeConsent">--</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Non-Essential (Before)</span>
+                    <span class="stat-value" id="nonEssential">--</span>
+                </div>
+            </div>
+
+            <div class="recommendations" id="recommendationsBox">
+                <h3>⚠️ Key Recommendations</h3>
+                <ul id="recommendationsList">
+                    <li>Loading recommendations...</li>
+                </ul>
+            </div>
+
+            <button id="viewReportBtn" class="btn-primary">View Full Report</button>
+
+            <div id="errorDisplay" class="error-msg hidden"></div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
